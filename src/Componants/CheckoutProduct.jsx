@@ -19,7 +19,7 @@ const CheckoutForm = () => {
       setTimeout(() => {
         alert("Payment Successful!");
         localStorage.removeItem('price');
-        window.location.href = "/product";
+        window.location.href = "/";
       
     },1000)
    
